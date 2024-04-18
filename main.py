@@ -2,14 +2,10 @@ from typing import List
 
 #Skeleton code for even_list
 def even_list(int_list:List[int]) -> List[int]:
-    """
-    Determines if a number is even and return an even list.
-    
-    Args:
-        int_list: A list of integer.
-    """
-    #TODO: Implement sum_of_squares_of_even
-    pass 
+    for number in int_list:
+        if number % 2 == 0:
+            even_numbers.append(number)
+    return even_numbers
 
 #Skeleton code for sum_of_squares_of_even
 def sum_of_squares_of_even(int_list:List[int]) -> List[int]:
